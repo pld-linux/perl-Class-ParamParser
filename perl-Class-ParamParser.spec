@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	ParamParser
+%define		pdir	Class
+%define		pnam	ParamParser
 Summary:	Class::ParamParser - complex parameter list parsing
 Summary(pl):	Class::ParamParser - analizowanie z³o¿onych list parametrów
 Name:		perl-Class-ParamParser
