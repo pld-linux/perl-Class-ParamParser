@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	ParamParser
 Summary:	Class::ParamParser - complex parameter list parsing
-Summary(pl):	Class::ParamParser - analizowanie z³o¿onych list parametrów
+Summary(pl.UTF-8):   Class::ParamParser - analizowanie zÅ‚oÅ¼onych list parametrÃ³w
 Name:		perl-Class-ParamParser
 Version:	1.041
 Release:	1
@@ -27,12 +27,12 @@ functions. The two methods differ in that one returns a HASH ref
 containing named parameters and the other returns an ARRAY ref
 containing positional parameters.
 
-%description -l pl
-Ta klasa obiektu Perla 5 implementuje dwie metody, z których
-odziedziczone klasy mog± korzystaæ do oczyszczenia list parametrów dla
-ich w³asnych metod i funkcji. Metody ró¿ni± siê tym, ¿e jedna zwraca
-referencjê do hasza zawieraj±cego parametry nazwane, a druga zwraca
-referencjê do tablicy zawieraj±cej parametry pozycyjne.
+%description -l pl.UTF-8
+Ta klasa obiektu Perla 5 implementuje dwie metody, z ktÃ³rych
+odziedziczone klasy mogÄ… korzystaÄ‡ do oczyszczenia list parametrÃ³w dla
+ich wÅ‚asnych metod i funkcji. Metody rÃ³Å¼niÄ… siÄ™ tym, Å¼e jedna zwraca
+referencjÄ™ do hasza zawierajÄ…cego parametry nazwane, a druga zwraca
+referencjÄ™ do tablicy zawierajÄ…cej parametry pozycyjne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
