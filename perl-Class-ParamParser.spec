@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	ParamParser
 Summary:	Class::ParamParser - complex parameter list parsing
-Summary(pl.UTF-8):   Class::ParamParser - analizowanie złożonych list parametrów
+Summary(pl.UTF-8):	Class::ParamParser - analizowanie złożonych list parametrów
 Name:		perl-Class-ParamParser
 Version:	1.041
 Release:	1
