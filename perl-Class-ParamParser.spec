@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Class
 %define		pnam	ParamParser
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::ParamParser - complex parameter list parsing
 Summary(pl.UTF-8):	Class::ParamParser - analizowanie złożonych list parametrów
 Name:		perl-Class-ParamParser
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	06ea167ae52c80629249244f93fbccbd
+URL:		http://search.cpan.org/dist/Class-ParamParser/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
