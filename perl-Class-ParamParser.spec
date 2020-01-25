@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	ParamParser
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::ParamParser - complex parameter list parsing
 Summary(pl.UTF-8):	Class::ParamParser - analizowanie złożonych list parametrów
 Name:		perl-Class-ParamParser
