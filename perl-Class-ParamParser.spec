@@ -8,7 +8,7 @@ Summary:	Class::ParamParser - complex parameter list parsing
 Summary(pl.UTF-8):	Class::ParamParser - analizowanie złożonych list parametrów
 Name:		perl-Class-ParamParser
 Version:	1.041
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
